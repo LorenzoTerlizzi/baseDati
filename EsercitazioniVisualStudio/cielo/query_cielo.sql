@@ -40,7 +40,8 @@ and l1.citta = 'Roma' and l2.citta = 'New York';
 --8--
 select a.codice, a.nome, l.citta
 from ArrPart ap, Aeroporto a, LuogoAeroporto l
-where l.aeroporto = ap.partenza and a.codice = ap.partenza
+where l.aeroporto = ap.partenza 
+and a.codice = ap.partenza
 and ap.comp = 'MagicFly';
 
 --9--
