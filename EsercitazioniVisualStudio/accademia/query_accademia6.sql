@@ -18,7 +18,7 @@ from Persona
 group by posizione;
 
 --2--
-select count(id) numeroStrutturati
+select count(*) numeroStrutturati
 from Persona
 where stipendio >= 40000;
 
