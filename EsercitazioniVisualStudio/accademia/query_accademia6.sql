@@ -63,7 +63,7 @@ select distinct p.id, p.nome, sum(ap.oreDurata) totaleOre
 from AttivitaProgetto ap, Persona s, Progetto p
 where ap.persona = s.id and ap.progetto = p.id
 and s.nome = 'Ginevra' and s.cognome = 'Riva'
-group by p.id;
+group by p.id, p.nome;
 
 
 --10--
