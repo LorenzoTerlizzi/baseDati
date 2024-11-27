@@ -1,0 +1,4 @@
+Estendere lo schema concettuale per modellare anche i seguenti requisiti:
+
+99.4. Il personale amministrativo deve poter:
+        99.4.1. calcolare, data una prestazione esterna per la specializzazione 's', l'insieme dei medici maggiormente adatti a soddisfarla: se esistono medici con specializzazione primaria pari ad 's', il risultato è l'insieme di tali medici. Altrimenti, il risultato è l’insieme dei medici che hanno 's' tra le loro specializzazioni secondarie.

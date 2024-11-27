@@ -1,0 +1,21 @@
+Specifica use-case Gestione ricoveri
+
+nuovo_ricovero(p:Paziente, m:Medico, l:Letto) : Ricovero
+	pre: 
+		- Non esiste r:Ricovero non terminato associato al letto 'l'.
+		- Non esiste r:Ricovero non terminato associato a p.
+
+	post:
+		Viene creato e restuito un nuovo oggetto result:Ricovero con:
+			- result.inizio = data corrente.
+
+		Viene creato il link (p,result):paz_ric.
+		Viene creato il link (l,result):let_ric.
+		Viene creato il link (m,result):med_ric.
+
+
+termina_ricovero(r:Ricovero)
+	pre:
+		Oggetto 'r' non è istanza di PrestTerm.
+	post:
+		L'istanza 'r' diventa anche istanza di classe PrestTerm con r.fine = istante corrente.

@@ -1,0 +1,7 @@
+Specifica Classe Paziente
+
+[V.Paziente.citta]
+	Ogni paziente è legato ad una città e ad un cap di quella città.
+
+[V.Paziente.no_due_ricoveri_sovrapposti]	
+	Non deve esistere un paziente associato a due ricoveri sovrapposti nel tempo.

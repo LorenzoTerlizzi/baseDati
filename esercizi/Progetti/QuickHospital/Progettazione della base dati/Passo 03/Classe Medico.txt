@@ -1,0 +1,6 @@
+Specifica ristrutturata classe Medico
+
+[V.Medico.spec_sec_isa_spec_prim]
+	Per ogni m:Medico e s:Specializzazione:
+		Se (m,s):med_spec_primaria
+		Allora deve essere: (m,s):med_spec.

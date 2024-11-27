@@ -1,0 +1,4 @@
+Iniziare la fase di progettazione della base dati, conducendo i seguenti passi:
+
+1. Ristrutturazione del diagramma UML delle classi concettuale
+        1.1. Eliminazione degli attributi multivalore

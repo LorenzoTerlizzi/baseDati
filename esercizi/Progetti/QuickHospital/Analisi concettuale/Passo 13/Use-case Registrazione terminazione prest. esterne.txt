@@ -1,0 +1,8 @@
+Specifica use-case Registrazione terminazione prest. esterne
+
+
+termina_prest_esterna(p:PrestEsterna)
+	pre:
+		Oggetto 'p' non è istanza di PrestTerm.
+	post:
+		L'istanza 'p' diventa anche istanza di classe PrestTerm con p.fine = istante corrente.

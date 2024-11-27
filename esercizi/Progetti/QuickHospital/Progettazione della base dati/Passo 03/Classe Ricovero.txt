@@ -1,0 +1,6 @@
+Specifica ristrutturata della classe Ricovero
+
+Vincoli:
+
+	[V.Ricovero.medico_sempre_associato]
+		Per ogni r:Ricovero, l'oggetto p:Prestazione associato (ovvero tale che (r,p):ric_isa_prest) deve avere un medico associato, ovvero un oggetto m:Medico tale che (m,p):med_prest.

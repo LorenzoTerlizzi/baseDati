@@ -1,0 +1,8 @@
+Specifica class PrestazioneTerm
+
+[V.PrestTerminata.fine]
+	Per ogni p:PrestTerminata p.fine (se valorizzato) >= p.inizio
+
+
+[V.PrestTerminata.ha_medico]	
+	Per ogni p:PrestTerminata, p deve essere coinvolta in un link di associazione med_prest.

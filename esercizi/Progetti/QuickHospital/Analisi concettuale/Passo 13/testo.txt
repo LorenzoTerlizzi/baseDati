@@ -1,0 +1,6 @@
+Estendere lo schema concettuale per modellare anche i seguenti requisiti:
+
+99.4. Il personale amministrativo deve poter:
+        99.4.2. assegnare un medico ad una prestazione esterna
+
+        99.4.3. assegnare un nuovo medico ad un ricovero

@@ -1,0 +1,6 @@
+Specifica ristrutturata della classe Persona
+
+[V.Persona.complete]
+	Per ogni p:Persona è vera almeno una seguenti:
+		- esiste paz:Paziente tale che (paz,p):paz_isa_persona
+		- esiste med:Medico tale che (med,p):med_isa_persona

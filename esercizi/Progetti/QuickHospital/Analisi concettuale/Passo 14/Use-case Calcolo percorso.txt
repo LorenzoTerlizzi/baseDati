@@ -1,0 +1,23 @@
+Specifica Use-case Calcolo percorso
+
+
+percorso(): Ricovero [0..*] <<ordered>>
+	pre: nessuna
+
+	post:
+		Sia m:Medico l'oggetto associato all'attore che invoca l'operazione.
+
+		Sia R l'insieme di tutti i ricoveri 'r' tali che:
+			- sono in corso, ovvero:
+			 	- r.inizio <= istante corrente
+			 	- r non è di classe PrestTerm
+
+			- sono associati ad m, ovvero: (r,m):med_prest
+
+		result è la lista degli oggetti in R ordinati secondo il seguente comparatore:
+			r1 <= r2 se e solo se:
+				- detti pi1 e set1 il piano e il settore di r1
+				- detti pi2 e set2 il piano e il settore di r2
+
+				- pi1 < pi2 oppure (pi1 = pi2 and set1 <= set2).
+

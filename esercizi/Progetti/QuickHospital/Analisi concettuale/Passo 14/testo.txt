@@ -1,0 +1,4 @@
+Estendere lo schema concettuale per modellare anche i seguenti requisiti:
+
+99.2. I medici devono poter:
+        99.2.1. calcolare il loro itinerario di visite, ovvero un insieme ordinato delle stanze associate ai ricoveri di cui è responsabile (v. req. 4.5). L'ordinamento è dato in primo luogo dal piano delle stanze ed in secondo luogo dal settore (entrambi in ordine crescente).

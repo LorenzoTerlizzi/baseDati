@@ -1,0 +1,6 @@
+Estendere lo schema concettuale per modellare anche i seguenti requisiti:
+
+99. Requisiti sulle funzionalità da offrire:
+ 
+    99.2. Il personale di accettazione deve poter:
+        99.2.1. registrare un ricovero, fornendo i dati di cui ai req. 4.1 (paziente già registrato a sistema), 4.2, 4.4.

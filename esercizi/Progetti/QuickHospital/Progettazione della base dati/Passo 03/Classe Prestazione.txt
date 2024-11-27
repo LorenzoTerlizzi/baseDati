@@ -1,0 +1,16 @@
+Specifica ristrutturata della classe Prestazione
+
+Operazione:
+
+is_term():boolean
+	pre: nessuna
+	post: result = true se e solo se this.fine è valorizzato.
+
+
+
+Vincoli
+
+[V.Prestazione.disjoint_complete]
+	Per ogni pr:Prestazione, esattamente una delle seguenti è vera:
+		- o esiste r:Ricovero tale che (r,pr):ric_isa_prest
+		- oppure esiste pr_est:PrestEsterna tale che (pr_est,pr):prestest_isa_prest.

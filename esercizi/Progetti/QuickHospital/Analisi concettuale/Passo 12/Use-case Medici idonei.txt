@@ -1,0 +1,16 @@
+Specifica use-case Medici idonei
+
+
+medici_idonei(p:PrestEsterna) : Medico [0..*]
+	pre: nessuna
+	post:
+
+		Sia s:Specializzazione la specializzazione associata a 'p'.
+
+		Sia M l'insieme degli oggetti di classe Medico legati a 's' da link di associazione med_spec_primaria.
+
+		Se M non è vuoto, viene resituito.
+
+		Altrimenti, result è l'insieme degli oggetti di classe Medico legati ad 's' da link di associazione med_spec.
+
+
